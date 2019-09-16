@@ -7,8 +7,26 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^6.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
     "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.0",
     "prettier": "^1.18.2"
+  },
+  "_moduleAliases": {
+    "@": "src",
+    "@app": "src/app.js",
+    "@config": "src/config",
+    "@controller": "src/controller",
+    "@model": "src/model",
+    "@routes": "src/routes.js",
+    "@helper": "src/helper",
+    "@middleware": "src/middleware",
+    "@service": "src/service",
+    "@test": "src/test",
+    "@docs": "src/docs"
+  },
+  "dependencies": {
+    "module-alias": "^2.2.1"
   }
 }
