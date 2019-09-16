@@ -1,0 +1,14 @@
+{
+  "name": "Padrao-Softeam",
+  "version": "1.0.0",
+  "description": "Uma Api de padronização de desenvolvimento da Softeam",
+  "main": "index.js",
+  "author": "Rivanildo Júnior",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  }
+}
