@@ -16,6 +16,8 @@
   },
   "rules": {
     "prettier/prettier": "error",
-    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }]
+    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }],
+    "import/no-unresolved": "off",
+    "consistent-return": "off"
   }
 }

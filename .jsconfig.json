@@ -6,12 +6,12 @@
     "paths": {
       "@app/*": ["src/*"],
       "@config/*": ["src/config/*"],
-      "@controller/*": ["src/controller/*"],
-      "@model/*": ["src/model/*"],
-      "@helper/*": ["src/helper/*"],
+      "@controllers/*": ["src/controllers/*"],
+      "@models/*": ["src/models/*"],
+      "@helpers/*": ["src/helpers/*"],
       "@routes/*": ["src/routes,js"],
-      "@middleware/*": ["src/midlleware/*"],
-      "@service/*": ["src/service/*"],
+      "@middlewares/*": ["src/midllewares/*"],
+      "@services/*": ["src/services/*"],
       "@test/*": ["src/test/*"],
       "@docs/*": ["src/docs/*"]
     }

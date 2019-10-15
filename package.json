@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Rivanildo Júnior",
   "license": "MIT",
+  "scripts": {
+    "start": "node server"
+  },
   "devDependencies": {
     "eslint": "^6.4.0",
     "eslint-config-airbnb-base": "^14.0.0",
@@ -17,16 +20,19 @@
     "@": "src",
     "@app": "src/app.js",
     "@config": "src/config",
-    "@controller": "src/controller",
-    "@model": "src/model",
+    "@controllers": "src/controllers",
+    "@models": "src/models",
     "@routes": "src/routes.js",
-    "@helper": "src/helper",
-    "@middleware": "src/middleware",
-    "@service": "src/service",
+    "@helpers": "src/helpers",
+    "@middlewares": "src/middlewares",
+    "@services": "src/services",
     "@test": "src/test",
     "@docs": "src/docs"
   },
   "dependencies": {
-    "module-alias": "^2.2.1"
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "module-alias": "^2.2.1",
+    "mongoose": "^5.7.5"
   }
 }
